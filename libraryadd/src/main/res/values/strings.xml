@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LibraryAdd</string>
+    <public name="MYLIBRAYRTEXT" type="string"/>
+</resources>
