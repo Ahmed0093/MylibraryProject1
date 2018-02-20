@@ -15,4 +15,14 @@ public class RssFeedProvider {
     {
         return numb1+numb2;
     }
+
+    public static int sub(int numb1,int numb2)
+    {
+        return numb1-numb2;
+    }
+
+    public  int mul(int numb1,int numb2)
+    {
+        return numb1*numb2;
+    }
 }
