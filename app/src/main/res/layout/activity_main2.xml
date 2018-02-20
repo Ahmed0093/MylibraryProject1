@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example1.iti.mylibraryproject1.MainActivity">
+
+    <Button
+        android:id="@+id/btntest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go to Librrary!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.example1.iti.libraryadd.TimeView
+        android:layout_below="@+id/btntest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff21"
+        android:id="@+id/timeview"
+        android:textSize="40sp"
+        custom:title="my time view"
+        custom:setColor="true" />
+
+    <com.example1.iti.libraryadd.LibraryView
+        android:layout_below="@+id/timeview"
+        android:id="@+id/mylibtest"
+        android:background="#ff2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </com.example1.iti.libraryadd.LibraryView>
+
+
+
+</RelativeLayout>
