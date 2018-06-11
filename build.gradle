@@ -14,7 +14,7 @@ buildscript {
 
         // Setup the android-maven-gradle-plugin in the classpath
 //        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1' // Added for library  interaction with GitHUB
 
 
         // NOTE: Do not place your application dependencies here; they belong
