@@ -8,6 +8,7 @@
     android:id="@+id/linearlayoutid">
     <Button
         android:id="@+id/mylibbtn"
+        android:onClick="onclick12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="librrary btn"/>
